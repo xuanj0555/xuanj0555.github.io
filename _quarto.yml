@@ -16,7 +16,7 @@ website:
       - href: Reflection.qmd
         text: Reflection
       - href: MyProject.qmd
-        text: My Project
+        text: MyProject
 
 format:
   html:
