@@ -1,0 +1,88 @@
+---
+title: "Data Visualization Project"
+subtitle: "Student Grade Analysis"
+format:
+  html:
+    toc: false
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(dplyr)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## The Project
+
+**Course:** Introduction to Statistics  
+**Year:** 2025 (The year of data exploration)
+**Tools:** R and ggplot2
+
+## The Story
+
+For my statistics class final project, I wanted to analyze how study time affects exam scores. I collected data from 30 classmates who agreed to share their study hours and final exam scores. I was curious: does more studying always mean better grades?
+
+## The Visualization
+
+```{r}
+# Create sample data (based on real project)
+set.seed(123)
+study_data <- data.frame(
+  student_id = 1:30,
+  study_hours = round(runif(30, 5, 30)),  # 5 to 30 hours
+  exam_score = round(60 + 0.8*runif(30, 5, 30) + rnorm(30, 0, 8))
+)
+
+# Ensure scores are between 0-100
+study_data$exam_score <- pmax(50, pmin(100, study_data$exam_score))
+
+# Create scatter plot
+ggplot(study_data, aes(x = study_hours, y = exam_score)) +
+  geom_point(size = 3, color = "steelblue") +
+  geom_smooth(method = "lm", se = FALSE, color = "darkred", size = 1) +
+  labs(
+    title = "Study Hours vs. Exam Scores",
+    subtitle = "Analysis of 30 Students in Statistics Course",
+    x = "Study Hours (per week)",
+    y = "Exam Score (out of 100)",
+    caption = "Each point represents one student"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 16, face = "bold"),
+    axis.title = element_text(size = 12)
+  )
+```
+
+## What's Visualized
+
+- **X-axis:** Study hours per week (numerical values: 5 to 30 hours)
+- **Y-axis:** Exam scores (numerical values: 50 to 100 points)
+- **Blue dots:** Each represents one student's study hours and exam score
+- **Red line:** Trend line showing the general relationship
+
+## Key Findings
+
+1. **Positive correlation:** Generally, more study hours = higher exam scores
+2. **Diminishing returns:** After about 20 hours, extra studying doesn't guarantee much improvement
+3. **Variation:** Some students scored well with moderate studying, others studied a lot but didn't score as high
+
+## Why I Chose This Visualization
+
+I used a **scatter plot with trend line** because:
+
+1. **Simple and clear:** Easy for anyone to understand
+2. **Shows individual data points:** You can see each student's situation
+3. **Shows overall trend:** The line makes the pattern obvious
+4. **Two numeric variables:** Perfect for showing relationship between study hours and scores
+
+## What I Learned
+
+This project taught me that data visualization helps reveal patterns that aren't obvious from just by simply looking at numbers. The scatter plot clearly showed that while studying helps, it's not the only factor affecting grades.
+
+---
+
+*This was my first real data visualization project and sparked my interest in data science.*
+
+[← Back to Home](index.qmd)

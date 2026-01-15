@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "temp_website",
+    "title": "My Webpage",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "A little about me is that, I am a data enthusiast who loves to explore and visualize data. I have a background in statistics and computer science, and I enjoy learning new tools and techniques for data analysis.\n\n\n\n\n\nHappiness is the best way to describe me. I always try to find joy in the little things in life and spread positivity to those around me.."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,180 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "DataVisualization.html",
+    "href": "DataVisualization.html",
+    "title": "Data Visualization Project",
+    "section": "",
+    "text": "Course: Introduction to Statistics\nYear: 2025 (The year of data exploration) Tools: R and ggplot2"
+  },
+  {
+    "objectID": "DataVisualization.html#the-project",
+    "href": "DataVisualization.html#the-project",
+    "title": "Data Visualization Project",
+    "section": "",
+    "text": "Course: Introduction to Statistics\nYear: 2025 (The year of data exploration) Tools: R and ggplot2"
+  },
+  {
+    "objectID": "DataVisualization.html#the-story",
+    "href": "DataVisualization.html#the-story",
+    "title": "Data Visualization Project",
+    "section": "The Story",
+    "text": "The Story\nFor my statistics class final project, I wanted to analyze how study time affects exam scores. I collected data from 30 classmates who agreed to share their study hours and final exam scores. I was curious: does more studying always mean better grades?"
+  },
+  {
+    "objectID": "DataVisualization.html#the-visualization",
+    "href": "DataVisualization.html#the-visualization",
+    "title": "Data Visualization Project",
+    "section": "The Visualization",
+    "text": "The Visualization"
+  },
+  {
+    "objectID": "DataVisualization.html#whats-visualized",
+    "href": "DataVisualization.html#whats-visualized",
+    "title": "Data Visualization Project",
+    "section": "What’s Visualized",
+    "text": "What’s Visualized\n\nX-axis: Study hours per week (numerical values: 5 to 30 hours)\nY-axis: Exam scores (numerical values: 50 to 100 points)\nBlue dots: Each represents one student’s study hours and exam score\nRed line: Trend line showing the general relationship"
+  },
+  {
+    "objectID": "DataVisualization.html#key-findings",
+    "href": "DataVisualization.html#key-findings",
+    "title": "Data Visualization Project",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nPositive correlation: Generally, more study hours = higher exam scores\nDiminishing returns: After about 20 hours, extra studying doesn’t guarantee much improvement\nVariation: Some students scored well with moderate studying, others studied a lot but didn’t score as high"
+  },
+  {
+    "objectID": "DataVisualization.html#why-i-chose-this-visualization",
+    "href": "DataVisualization.html#why-i-chose-this-visualization",
+    "title": "Data Visualization Project",
+    "section": "Why I Chose This Visualization",
+    "text": "Why I Chose This Visualization\nI used a scatter plot with trend line because:\n\nSimple and clear: Easy for anyone to understand\nShows individual data points: You can see each student’s situation\nShows overall trend: The line makes the pattern obvious\nTwo numeric variables: Perfect for showing relationship between study hours and scores"
+  },
+  {
+    "objectID": "DataVisualization.html#what-i-learned",
+    "href": "DataVisualization.html#what-i-learned",
+    "title": "Data Visualization Project",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project taught me that data visualization helps reveal patterns that aren’t obvious from just by simply looking at numbers. The scatter plot clearly showed that while studying helps, it’s not the only factor affecting grades.\n\nThis was my first real data visualization project and sparked my interest in data science.\n← Back to Home"
+  },
+  {
+    "objectID": "MyProject.html",
+    "href": "MyProject.html",
+    "title": "About",
+    "section": "",
+    "text": "My Final Year Project\nMy final year project prior to entering SIT is a web application that visualizes the sentiment analysis of Twitter data related to COVID-19. The application allows users to explore the sentiments expressed in tweets about COVID-19 over time and across different regions."
+  },
+  {
+    "objectID": "Hobbies.html",
+    "href": "Hobbies.html",
+    "title": "Hobbies: Volunteering",
+    "section": "",
+    "text": "In my free time, I find joy and purpose in volunteering. It started as a way to give back to my community, but it has become a meaningful part of my life that teaches me about empathy, teamwork, and gratitude.\n\n\n\n\nEvery last weekend of the month from 9 AM to 12 PM, I help at Hougang SunLove Centre where I: - Sort and pack food donations - Assist with distribution to families in need - Help organize inventory\n\n\n\nI volunteered as a phonics tutor for kindergarten students every Saturday morning under Youth Corps: - Prepare simple, engaging phonic activities in the Khan Academy Kids app - See students gain confidence in their abilities - Build rapport with kids from diverse backgrounds\n\n\n\nOccasionally, I help with: - Charity runs and fundraising events - Holiday donation drives - Community festivals\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf you’re interested in volunteering:\n\nStart small - Even 2 hours a month makes a difference\nChoose what you enjoy - You’ll stick with it longer\nCheck local websites for volunteer opportunities\nBring a friend - It’s more fun together!\n\n\n\n\n\nGratitude: Appreciating what I have\nPatience: Things take time to improve\nCommunity: We’re all connected\nLeadership: Taking initiative in group activities\nBalance: Making time for both studies and service\n\n\n“The best way to find yourself is to lose yourself in the service of others.” - Mahatma Gandhi\nVolunteering has taught me that small actions, when multiplied by many people, can transform the world.\n← Back to Home | View My Projects →"
+  },
+  {
+    "objectID": "Hobbies.html#where-i-volunteer",
+    "href": "Hobbies.html#where-i-volunteer",
+    "title": "Hobbies: Volunteering",
+    "section": "",
+    "text": "Every last weekend of the month from 9 AM to 12 PM, I help at Hougang SunLove Centre where I: - Sort and pack food donations - Assist with distribution to families in need - Help organize inventory\n\n\n\nI volunteered as a phonics tutor for kindergarten students every Saturday morning under Youth Corps: - Prepare simple, engaging phonic activities in the Khan Academy Kids app - See students gain confidence in their abilities - Build rapport with kids from diverse backgrounds\n\n\n\nOccasionally, I help with: - Charity runs and fundraising events - Holiday donation drives - Community festivals"
+  },
+  {
+    "objectID": "Hobbies.html#how-to-get-involved",
+    "href": "Hobbies.html#how-to-get-involved",
+    "title": "Hobbies: Volunteering",
+    "section": "",
+    "text": "If you’re interested in volunteering:\n\nStart small - Even 2 hours a month makes a difference\nChoose what you enjoy - You’ll stick with it longer\nCheck local websites for volunteer opportunities\nBring a friend - It’s more fun together!"
+  },
+  {
+    "objectID": "Hobbies.html#what-volunteering-has-taught-me",
+    "href": "Hobbies.html#what-volunteering-has-taught-me",
+    "title": "Hobbies: Volunteering",
+    "section": "",
+    "text": "Gratitude: Appreciating what I have\nPatience: Things take time to improve\nCommunity: We’re all connected\nLeadership: Taking initiative in group activities\nBalance: Making time for both studies and service\n\n\n“The best way to find yourself is to lose yourself in the service of others.” - Mahatma Gandhi\nVolunteering has taught me that small actions, when multiplied by many people, can transform the world.\n← Back to Home | View My Projects →"
+  },
+  {
+    "objectID": "Reflection.html",
+    "href": "Reflection.html",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "For this assessment, I primarily used DeepSeek as my main GenAI assistant. I chose this tool because:\n\nAccessibility: It’s free and available through web browsers\nCode Support: Excellent at generating and debugging R, Quarto, and GitHub code\nContextual Understanding: Can maintain context across long conversations about the project\nEducational Approach: Explains concepts rather than just giving answers\n\n\n\n\n\n\n# Example: Before GenAI, I didn't know how to:\n# - Link R code with HTML output\n\n# GenAI provided step-by-step instructions for:\n# - Creating the project structure\n# - Setting up _quarto.yml configuration\n\n\n\nWhen I encountered errors like: - GitHub Pages showing “Upgrade” instead of settings - R code chunks not rendering properly\nGenAI helped me: - Diagnose the root cause (private repository issue, missing packages) - Provide specific fix commands - Explain why the error occurred so I could learn from it\n\n\n\nFor the Data Visualization page, GenAI helped me: - Choose appropriate graph types (scatter plot for my study hours project) - Write clear explanations of what was being visualized\nFor the Hobbies page, it helped me: - Create a simple bar chart visualization - Organize content into logical sections\n\n\n\nInstead of just giving code, GenAI explained: - How Quarto renders .qmd files to HTML - The difference between GitHub Pages branch sources - Best practices for data visualization principles\n\n\n\n\n\n\nAs someone new to Quarto and GitHub Pages, I went from zero to a functional website in hours instead of days.\n\n\n\nWhen stuck on technical issues (like the GitHub Pages setup), GenAI provided immediate troubleshooting steps instead of me spending hours searching forums.\n\n\n\nThe AI suggested best practices I wouldn’t have known: - Using proper YAML formatting - Adding alt text for images - Creating responsive designs\n\n\n\nFor the homepage design, GenAI provided multiple layout options I could adapt rather than starting from a blank page.\n\n\n\n\n\n\nAt times, I noticed myself wanting to ask GenAI for every small decision instead of thinking through problems myself.\n\n\n\nSome suggestions needed verification: - Generated R code sometimes had syntax errors - GitHub instructions occasionally referenced outdated interfaces - Had to cross-check with official documentation\n\n\n\nFor complex multi-file projects, GenAI sometimes lost track of the overall structure and gave contradictory advice.\n\n\n\nWhile helpful for technical aspects, the content still needed my personal touch and authentic voice.\n\n\n\n\n\n\n\n“How do I fix this specific error message?”\n“What’s the best way to visualize this type of data?”\n“Explain how GitHub Pages deployment works”\n\n\n\n\n\n“Write my entire reflection for me”\n“Create all my website content without my input”\n“Make decisions about my personal experiences”\n\n\n\n\n\n\n\n\nResearch: Literature review assistance, data analysis code generation\nWriting: Structuring essays, checking grammar, improving clarity\nStudying: Creating study guides, explaining complex concepts\n\n\n\n\n\nCoding Projects: Debugging assistance, learning new frameworks\nDocumentation: Writing technical documentation and reports\nProblem Solving: Brainstorming solutions to complex problems\n\n\n\n\n\nI developed this workflow: 1. Try myself first: Attempt to solve the problem 2. Get stuck: Identify exactly where I’m stuck 3. Ask specific questions: Instead of “build my website”, ask “how do I connect Quarto to GitHub Pages?” 4. Understand, don’t just copy: Ask for explanations of suggested solutions 5. Apply and adapt: Modify suggestions to fit my specific needs\n\n\n\n\n\nThe most valuable insight I gained is that GenAI works best as an assistant rather than a replacement for learning. When I used it to explain concepts and debug specific issues, I actually learned more than if I had just copied working code.\n\n\n\nI made sure to: - Use GenAI for learning and assistance, not to complete work for me - Add my personal experiences and voice to all content - Understand and be able to explain all code I used - Acknowledge GenAI’s role in my learning process\n\n\n\nWhile GenAI accelerated this project, I made conscious effort to: - Learn the underlying principles (how Quarto works, why certain visualizations are effective) - Develop my own problem-solving skills alongside using AI - Maintain authenticity in my personal reflections and experiences\n\n\n\n\n\n\n\n\nAspect\nMy Usage Level\nReflection\n\n\n\n\nTechnical Setup\nHigh\nEssential for learning new tools\n\n\nContent Creation\nModerate\nUsed for structure, not content\n\n\nDebugging\nHigh\nSaved significant time\n\n\nLearning\nHigh\nExcellent for explanations\n\n\nCreativity\nLow\nMaintained my personal voice\n\n\n\n\n\n\n\nGenAI democratizes technical skills - Makes web development accessible to non-coders\nThe human-AI partnership is powerful - My domain knowledge + AI’s technical knowledge\nCritical thinking remains essential - Must verify and understand AI suggestions\nEthical use requires transparency - Acknowledging assistance while maintaining integrity\n\n\n“Technology is best when it brings people together.” - Matt Mullenweg\nGenAI, when used thoughtfully, can be that bridge between technical complexity and human creativity.\n← Back to Home | View Data Visualization → | My Hobbies →"
+  },
+  {
+    "objectID": "Reflection.html#which-genai-tool-i-used",
+    "href": "Reflection.html#which-genai-tool-i-used",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "For this assessment, I primarily used DeepSeek as my main GenAI assistant. I chose this tool because:\n\nAccessibility: It’s free and available through web browsers\nCode Support: Excellent at generating and debugging R, Quarto, and GitHub code\nContextual Understanding: Can maintain context across long conversations about the project\nEducational Approach: Explains concepts rather than just giving answers"
+  },
+  {
+    "objectID": "Reflection.html#how-genai-helped-me-complete-this-assessment",
+    "href": "Reflection.html#how-genai-helped-me-complete-this-assessment",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "# Example: Before GenAI, I didn't know how to:\n# - Link R code with HTML output\n\n# GenAI provided step-by-step instructions for:\n# - Creating the project structure\n# - Setting up _quarto.yml configuration\n\n\n\nWhen I encountered errors like: - GitHub Pages showing “Upgrade” instead of settings - R code chunks not rendering properly\nGenAI helped me: - Diagnose the root cause (private repository issue, missing packages) - Provide specific fix commands - Explain why the error occurred so I could learn from it\n\n\n\nFor the Data Visualization page, GenAI helped me: - Choose appropriate graph types (scatter plot for my study hours project) - Write clear explanations of what was being visualized\nFor the Hobbies page, it helped me: - Create a simple bar chart visualization - Organize content into logical sections\n\n\n\nInstead of just giving code, GenAI explained: - How Quarto renders .qmd files to HTML - The difference between GitHub Pages branch sources - Best practices for data visualization principles"
+  },
+  {
+    "objectID": "Reflection.html#benefits-i-experienced",
+    "href": "Reflection.html#benefits-i-experienced",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "As someone new to Quarto and GitHub Pages, I went from zero to a functional website in hours instead of days.\n\n\n\nWhen stuck on technical issues (like the GitHub Pages setup), GenAI provided immediate troubleshooting steps instead of me spending hours searching forums.\n\n\n\nThe AI suggested best practices I wouldn’t have known: - Using proper YAML formatting - Adding alt text for images - Creating responsive designs\n\n\n\nFor the homepage design, GenAI provided multiple layout options I could adapt rather than starting from a blank page."
+  },
+  {
+    "objectID": "Reflection.html#challenges-and-limitations",
+    "href": "Reflection.html#challenges-and-limitations",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "At times, I noticed myself wanting to ask GenAI for every small decision instead of thinking through problems myself.\n\n\n\nSome suggestions needed verification: - Generated R code sometimes had syntax errors - GitHub instructions occasionally referenced outdated interfaces - Had to cross-check with official documentation\n\n\n\nFor complex multi-file projects, GenAI sometimes lost track of the overall structure and gave contradictory advice.\n\n\n\nWhile helpful for technical aspects, the content still needed my personal touch and authentic voice."
+  },
+  {
+    "objectID": "Reflection.html#examples-of-effective-vs.-ineffective-use",
+    "href": "Reflection.html#examples-of-effective-vs.-ineffective-use",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "“How do I fix this specific error message?”\n“What’s the best way to visualize this type of data?”\n“Explain how GitHub Pages deployment works”\n\n\n\n\n\n“Write my entire reflection for me”\n“Create all my website content without my input”\n“Make decisions about my personal experiences”"
+  },
+  {
+    "objectID": "Reflection.html#how-genai-will-assist-my-future-studies-work",
+    "href": "Reflection.html#how-genai-will-assist-my-future-studies-work",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "Research: Literature review assistance, data analysis code generation\nWriting: Structuring essays, checking grammar, improving clarity\nStudying: Creating study guides, explaining complex concepts\n\n\n\n\n\nCoding Projects: Debugging assistance, learning new frameworks\nDocumentation: Writing technical documentation and reports\nProblem Solving: Brainstorming solutions to complex problems"
+  },
+  {
+    "objectID": "Reflection.html#my-learning-process-with-genai",
+    "href": "Reflection.html#my-learning-process-with-genai",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "I developed this workflow: 1. Try myself first: Attempt to solve the problem 2. Get stuck: Identify exactly where I’m stuck 3. Ask specific questions: Instead of “build my website”, ask “how do I connect Quarto to GitHub Pages?” 4. Understand, don’t just copy: Ask for explanations of suggested solutions 5. Apply and adapt: Modify suggestions to fit my specific needs"
+  },
+  {
+    "objectID": "Reflection.html#final-thoughts",
+    "href": "Reflection.html#final-thoughts",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "The most valuable insight I gained is that GenAI works best as an assistant rather than a replacement for learning. When I used it to explain concepts and debug specific issues, I actually learned more than if I had just copied working code.\n\n\n\nI made sure to: - Use GenAI for learning and assistance, not to complete work for me - Add my personal experiences and voice to all content - Understand and be able to explain all code I used - Acknowledge GenAI’s role in my learning process\n\n\n\nWhile GenAI accelerated this project, I made conscious effort to: - Learn the underlying principles (how Quarto works, why certain visualizations are effective) - Develop my own problem-solving skills alongside using AI - Maintain authenticity in my personal reflections and experiences"
+  },
+  {
+    "objectID": "Reflection.html#self-assessment-of-genai-usage",
+    "href": "Reflection.html#self-assessment-of-genai-usage",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "Aspect\nMy Usage Level\nReflection\n\n\n\n\nTechnical Setup\nHigh\nEssential for learning new tools\n\n\nContent Creation\nModerate\nUsed for structure, not content\n\n\nDebugging\nHigh\nSaved significant time\n\n\nLearning\nHigh\nExcellent for explanations\n\n\nCreativity\nLow\nMaintained my personal voice"
+  },
+  {
+    "objectID": "Reflection.html#key-takeaways",
+    "href": "Reflection.html#key-takeaways",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "GenAI democratizes technical skills - Makes web development accessible to non-coders\nThe human-AI partnership is powerful - My domain knowledge + AI’s technical knowledge\nCritical thinking remains essential - Must verify and understand AI suggestions\nEthical use requires transparency - Acknowledging assistance while maintaining integrity\n\n\n“Technology is best when it brings people together.” - Matt Mullenweg\nGenAI, when used thoughtfully, can be that bridge between technical complexity and human creativity.\n← Back to Home | View Data Visualization → | My Hobbies →"
+  },
+  {
+    "objectID": "index.html#a-picture-that-best-describes-me",
+    "href": "index.html#a-picture-that-best-describes-me",
+    "title": "My Webpage",
+    "section": "",
+    "text": "Happiness is the best way to describe me. I always try to find joy in the little things in life and spread positivity to those around me.."
   }
 ]

@@ -1,11 +1,24 @@
 ---
-title: "temp_website"
+title: "My Webpage"
+author: "Shermaine Chan"
+format: 
+  html:
+    toc: true
 ---
 
-This is a Quarto website.
+# Introduction
+A little about me is that, I am a data enthusiast who loves to explore and visualize data. I have a background in statistics and computer science, and I enjoy learning new tools and techniques for data analysis.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## A picture that best describes me
+::: {style="float:left; position: relative; top: 0px"}
+![](images/images.png){height="100px" style="margin-right: 10px; align: left"}
+:::
 
-```{r}
-1 + 1
-```
+Happiness is the best way to describe me. I always try to find joy in the little things in life and spread positivity to those around me..
+
+### A video that I love most is
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wa79QfKN2kE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+#### My favorite image on Google is
+![](images/hangyodon2.png){height="300px"}

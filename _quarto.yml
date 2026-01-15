@@ -3,20 +3,27 @@ project:
   output-dir: docs
 
 website:
-  title: "temp_website"
+  title: "Shermaine's Webpage"
+  favicon: favicon.png
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: DataVisualization.qmd
+        text: Data Visualization
+      - href: Hobbies.qmd
+        text: Hobbies
+      - href: Reflection.qmd
+        text: Reflection
 
 format:
   html:
     theme:
       - cosmo
-      - brand
     css: styles.css
     toc: true
+    toc-depth: 3
+    toc-location: left
 
 
 

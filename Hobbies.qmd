@@ -1,0 +1,94 @@
+---
+title: "Hobbies: Volunteering"
+format: html
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+# 🌱 My Volunteering Journey
+
+In my free time, I find joy and purpose in volunteering. It started as a way to give back to my community, but it has become a meaningful part of my life that teaches me about empathy, teamwork, and gratitude.
+
+## 📅 Where I Volunteer
+
+### **1. Community Food Bank (Every end of the month)**
+Every last weekend of the month from 9 AM to 12 PM, I help at Hougang SunLove Centre where I:
+- Sort and pack food donations
+- Assist with distribution to families in need
+- Help organize inventory
+
+### **2. KidsLearn**
+I volunteered as a phonics tutor for kindergarten students every Saturday morning under Youth Corps:
+- Prepare simple, engaging phonic activities in the Khan Academy Kids app
+- See students gain confidence in their abilities
+- Build rapport with kids from diverse backgrounds
+
+### **3. Special Events**
+Occasionally, I help with:
+- Charity runs and fundraising events
+- Holiday donation drives
+- Community festivals
+
+## 💡 Why I Volunteer
+
+```{r volunteering-hours, fig.height=5}
+# Simple visualization of volunteering hours - SIMPLIFIED VERSION
+volunteer_data <- data.frame(
+  Activity = c("Food Bank", "Tutoring", "Special Events"),
+  Hours = c(120, 80, 30)
+)
+
+# Order the activities by hours
+volunteer_data$Activity <- factor(volunteer_data$Activity,
+                                  levels = volunteer_data$Activity[order(volunteer_data$Hours)])
+
+ggplot(volunteer_data, aes(x = Activity, y = Hours, fill = Activity)) +
+  geom_bar(stat = "identity", width = 0.7) +
+  geom_text(aes(label = paste(Hours, "hrs")), 
+            hjust = -0.2, 
+            size = 5, 
+            fontface = "bold") +
+  scale_fill_manual(values = c("#2E86AB", "#A23B72", "#C73E1D")) +
+  labs(title = "My Volunteering Hours (Past Year)",
+       x = "",
+       y = "Hours") +
+  coord_flip() +
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position = "none",
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold")
+  ) +
+  ylim(0, 130)  # Set y-axis limit slightly above max value
+```
+
+## 🤝 How to Get Involved
+
+If you're interested in volunteering:
+
+1. **Start small** - Even 2 hours a month makes a difference
+2. **Choose what you enjoy** - You'll stick with it longer
+3. **Check local websites** for volunteer opportunities
+4. **Bring a friend** - It's more fun together!
+
+## 🌟 What Volunteering Has Taught Me
+
+- **Gratitude:** Appreciating what I have
+- **Patience:** Things take time to improve
+- **Community:** We're all connected
+- **Leadership:** Taking initiative in group activities
+- **Balance:** Making time for both studies and service
+
+---
+
+*"The best way to find yourself is to lose yourself in the service of others."* - Mahatma Gandhi
+
+**Volunteering has taught me that small actions, when multiplied by many people, can transform the world.**
+
+[← Back to Home](index.qmd) | [View My Projects →](data-visualization.qmd)

@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Shermaine Chan">
 
-<title>My Webpage – Shermaine’s Webpage</title>
+<title>Reflection on the use of GenAI – Shermaine’s Webpage</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -75,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="floating nav-fixed quarto-light">
+<body class="floating nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -95,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -107,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Hobbies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Reflection.html"> 
+    <a class="nav-link active" href="./Reflection.html" aria-current="page"> 
 <span class="menu-text">Reflection</span></a>
   </li>  
 </ul>
@@ -121,42 +155,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
-  <li><a href="#a-picture-that-best-describes-me" id="toc-a-picture-that-best-describes-me" class="nav-link" data-scroll-target="#a-picture-that-best-describes-me">A picture that best describes me</a>
-  <ul class="collapse">
-  <li><a href="#a-video-that-i-love-most-is" id="toc-a-video-that-i-love-most-is" class="nav-link" data-scroll-target="#a-video-that-i-love-most-is">A video that I love most is</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
+    
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Webpage</h1>
+<h1 class="title">Reflection on the use of GenAI</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Shermaine Chan </p>
-          </div>
-  </div>
     
   
     
@@ -167,26 +182,193 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>A little about me is that, I am a data enthusiast who loves to explore and visualize data. I have a background in statistics and computer science, and I enjoy learning new tools and techniques for data analysis.</p>
-<section id="a-picture-that-best-describes-me" class="level2">
-<h2 class="anchored" data-anchor-id="a-picture-that-best-describes-me">A picture that best describes me</h2>
-<div style="float:left; position: relative; top: 0px">
-<p><img src="images/images.png" style="margin-right: 10px; align: left" height="100"></p>
-</div>
-<p>Happiness is the best way to describe me. I always try to find joy in the little things in life and spread positivity to those around me..</p>
-<section id="a-video-that-i-love-most-is" class="level3">
-<h3 class="anchored" data-anchor-id="a-video-that-i-love-most-is">A video that I love most is</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wa79QfKN2kE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
-<section id="my-favorite-image-on-google-is" class="level4">
-<h4 class="anchored" data-anchor-id="my-favorite-image-on-google-is">My favorite image on Google is</h4>
-<p><img src="images/hangyodon2.png" height="300"></p>
-
-
+<section id="reflection-on-using-genai-for-this-assessment" class="level1">
+<h1>🤖 Reflection on Using GenAI for This Assessment</h1>
+<section id="which-genai-tool-i-used" class="level2">
+<h2 class="anchored" data-anchor-id="which-genai-tool-i-used">📱 Which GenAI Tool I Used</h2>
+<p>For this assessment, I primarily used <strong>DeepSeek</strong> as my main GenAI assistant. I chose this tool because:</p>
+<ol type="1">
+<li><strong>Accessibility</strong>: It’s free and available through web browsers</li>
+<li><strong>Code Support</strong>: Excellent at generating and debugging R, Quarto, and GitHub code</li>
+<li><strong>Contextual Understanding</strong>: Can maintain context across long conversations about the project</li>
+<li><strong>Educational Approach</strong>: Explains concepts rather than just giving answers</li>
+</ol>
+</section>
+<section id="how-genai-helped-me-complete-this-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="how-genai-helped-me-complete-this-assessment">🛠️ How GenAI Helped Me Complete This Assessment</h2>
+<section id="setting-up-the-technical-foundation" class="level3">
+<h3 class="anchored" data-anchor-id="setting-up-the-technical-foundation"><strong>1. Setting Up the Technical Foundation</strong></h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Example: Before GenAI, I didn't know how to:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># - Link R code with HTML output</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># GenAI provided step-by-step instructions for:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># - Creating the project structure</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># - Setting up _quarto.yml configuration</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="debugging-and-problem-solving" class="level3">
+<h3 class="anchored" data-anchor-id="debugging-and-problem-solving"><strong>2. Debugging and Problem Solving</strong></h3>
+<p>When I encountered errors like: - GitHub Pages showing “Upgrade” instead of settings - R code chunks not rendering properly</p>
+<p>GenAI helped me: - <strong>Diagnose the root cause</strong> (private repository issue, missing packages) - <strong>Provide specific fix commands</strong> - <strong>Explain why the error occurred</strong> so I could learn from it</p>
+</section>
+<section id="content-creation-assistance" class="level3">
+<h3 class="anchored" data-anchor-id="content-creation-assistance"><strong>3. Content Creation Assistance</strong></h3>
+<p>For the <strong>Data Visualization page</strong>, GenAI helped me: - Choose appropriate graph types (scatter plot for my study hours project) - Write clear explanations of what was being visualized</p>
+<p>For the <strong>Hobbies page</strong>, it helped me: - Create a simple bar chart visualization - Organize content into logical sections</p>
+</section>
+<section id="learning-new-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="learning-new-concepts"><strong>4. Learning New Concepts</strong></h3>
+<p>Instead of just giving code, GenAI explained: - How Quarto renders <code>.qmd</code> files to HTML - The difference between GitHub Pages branch sources - Best practices for data visualization principles</p>
 </section>
 </section>
+<section id="benefits-i-experienced" class="level2">
+<h2 class="anchored" data-anchor-id="benefits-i-experienced">👍 Benefits I Experienced</h2>
+<section id="accelerated-learning-curve" class="level3">
+<h3 class="anchored" data-anchor-id="accelerated-learning-curve"><strong>1. Accelerated Learning Curve</strong></h3>
+<p>As someone new to Quarto and GitHub Pages, I went from zero to a functional website in hours instead of days.</p>
+</section>
+<section id="reduced-frustration" class="level3">
+<h3 class="anchored" data-anchor-id="reduced-frustration"><strong>2. Reduced Frustration</strong></h3>
+<p>When stuck on technical issues (like the GitHub Pages setup), GenAI provided immediate troubleshooting steps instead of me spending hours searching forums.</p>
+</section>
+<section id="improved-code-quality" class="level3">
+<h3 class="anchored" data-anchor-id="improved-code-quality"><strong>3. Improved Code Quality</strong></h3>
+<p>The AI suggested best practices I wouldn’t have known: - Using proper YAML formatting - Adding alt text for images - Creating responsive designs</p>
+</section>
+<section id="creative-inspiration" class="level3">
+<h3 class="anchored" data-anchor-id="creative-inspiration"><strong>4. Creative Inspiration</strong></h3>
+<p>For the homepage design, GenAI provided multiple layout options I could adapt rather than starting from a blank page.</p>
+</section>
+</section>
+<section id="challenges-and-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-and-limitations">🤔 Challenges and Limitations</h2>
+<section id="over-reliance-risk" class="level3">
+<h3 class="anchored" data-anchor-id="over-reliance-risk"><strong>1. Over-reliance Risk</strong></h3>
+<p>At times, I noticed myself wanting to ask GenAI for every small decision instead of thinking through problems myself.</p>
+</section>
+<section id="accuracy-verification" class="level3">
+<h3 class="anchored" data-anchor-id="accuracy-verification"><strong>2. Accuracy Verification</strong></h3>
+<p>Some suggestions needed verification: - Generated R code sometimes had syntax errors - GitHub instructions occasionally referenced outdated interfaces - Had to cross-check with official documentation</p>
+</section>
+<section id="context-limitations" class="level3">
+<h3 class="anchored" data-anchor-id="context-limitations"><strong>3. Context Limitations</strong></h3>
+<p>For complex multi-file projects, GenAI sometimes lost track of the overall structure and gave contradictory advice.</p>
+</section>
+<section id="creativity-boundaries" class="level3">
+<h3 class="anchored" data-anchor-id="creativity-boundaries"><strong>4. Creativity Boundaries</strong></h3>
+<p>While helpful for technical aspects, the content still needed my personal touch and authentic voice.</p>
+</section>
+</section>
+<section id="examples-of-effective-vs.-ineffective-use" class="level2">
+<h2 class="anchored" data-anchor-id="examples-of-effective-vs.-ineffective-use">💡 Examples of Effective vs.&nbsp;Ineffective Use</h2>
+<section id="effective-use" class="level3">
+<h3 class="anchored" data-anchor-id="effective-use"><strong>Effective Use:</strong></h3>
+<ul>
+<li>“How do I fix this specific error message?”</li>
+<li>“What’s the best way to visualize this type of data?”</li>
+<li>“Explain how GitHub Pages deployment works”</li>
+</ul>
+</section>
+<section id="ineffective-use" class="level3">
+<h3 class="anchored" data-anchor-id="ineffective-use"><strong>Ineffective Use:</strong></h3>
+<ul>
+<li>“Write my entire reflection for me”</li>
+<li>“Create all my website content without my input”</li>
+<li>“Make decisions about my personal experiences”</li>
+</ul>
+</section>
+</section>
+<section id="how-genai-will-assist-my-future-studies-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-genai-will-assist-my-future-studies-work">🚀 How GenAI Will Assist My Future Studies &amp; Work</h2>
+<section id="academic-applications" class="level3">
+<h3 class="anchored" data-anchor-id="academic-applications"><strong>Academic Applications:</strong></h3>
+<ul>
+<li><strong>Research</strong>: Literature review assistance, data analysis code generation</li>
+<li><strong>Writing</strong>: Structuring essays, checking grammar, improving clarity</li>
+<li><strong>Studying</strong>: Creating study guides, explaining complex concepts</li>
+</ul>
+</section>
+<section id="professional-development" class="level3">
+<h3 class="anchored" data-anchor-id="professional-development"><strong>Professional Development:</strong></h3>
+<ul>
+<li><strong>Coding Projects</strong>: Debugging assistance, learning new frameworks</li>
+<li><strong>Documentation</strong>: Writing technical documentation and reports</li>
+<li><strong>Problem Solving</strong>: Brainstorming solutions to complex problems</li>
+</ul>
+</section>
+</section>
+<section id="my-learning-process-with-genai" class="level2">
+<h2 class="anchored" data-anchor-id="my-learning-process-with-genai">🧠 My Learning Process with GenAI</h2>
+<p>I developed this workflow: 1. <strong>Try myself first</strong>: Attempt to solve the problem 2. <strong>Get stuck</strong>: Identify exactly where I’m stuck 3. <strong>Ask specific questions</strong>: Instead of “build my website”, ask “how do I connect Quarto to GitHub Pages?” 4. <strong>Understand, don’t just copy</strong>: Ask for explanations of suggested solutions 5. <strong>Apply and adapt</strong>: Modify suggestions to fit my specific needs</p>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="final-thoughts">🔮 Final Thoughts</h2>
+<section id="genai-as-a-tool-not-a-crutch" class="level3">
+<h3 class="anchored" data-anchor-id="genai-as-a-tool-not-a-crutch"><strong>GenAI as a Tool, Not a Crutch</strong></h3>
+<p>The most valuable insight I gained is that GenAI works best as an <strong>assistant</strong> rather than a <strong>replacement</strong> for learning. When I used it to explain concepts and debug specific issues, I actually learned more than if I had just copied working code.</p>
+</section>
+<section id="ethical-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="ethical-considerations"><strong>Ethical Considerations</strong></h3>
+<p>I made sure to: - Use GenAI for learning and assistance, not to complete work for me - Add my personal experiences and voice to all content - Understand and be able to explain all code I used - Acknowledge GenAI’s role in my learning process</p>
+</section>
+<section id="skill-development-balance" class="level3">
+<h3 class="anchored" data-anchor-id="skill-development-balance"><strong>Skill Development Balance</strong></h3>
+<p>While GenAI accelerated this project, I made conscious effort to: - Learn the underlying principles (how Quarto works, why certain visualizations are effective) - Develop my own problem-solving skills alongside using AI - Maintain authenticity in my personal reflections and experiences</p>
+<hr>
+</section>
+</section>
+<section id="self-assessment-of-genai-usage" class="level2">
+<h2 class="anchored" data-anchor-id="self-assessment-of-genai-usage">📊 Self-Assessment of GenAI Usage</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Aspect</th>
+<th>My Usage Level</th>
+<th>Reflection</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Technical Setup</strong></td>
+<td>High</td>
+<td>Essential for learning new tools</td>
+</tr>
+<tr class="even">
+<td><strong>Content Creation</strong></td>
+<td>Moderate</td>
+<td>Used for structure, not content</td>
+</tr>
+<tr class="odd">
+<td><strong>Debugging</strong></td>
+<td>High</td>
+<td>Saved significant time</td>
+</tr>
+<tr class="even">
+<td><strong>Learning</strong></td>
+<td>High</td>
+<td>Excellent for explanations</td>
+</tr>
+<tr class="odd">
+<td><strong>Creativity</strong></td>
+<td>Low</td>
+<td>Maintained my personal voice</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">🎯 Key Takeaways</h2>
+<ol type="1">
+<li><strong>GenAI democratizes technical skills</strong> - Makes web development accessible to non-coders</li>
+<li><strong>The human-AI partnership is powerful</strong> - My domain knowledge + AI’s technical knowledge</li>
+<li><strong>Critical thinking remains essential</strong> - Must verify and understand AI suggestions</li>
+<li><strong>Ethical use requires transparency</strong> - Acknowledging assistance while maintaining integrity</li>
+</ol>
+<hr>
+<p><em>“Technology is best when it brings people together.”</em> - Matt Mullenweg</p>
+<p><strong>GenAI, when used thoughtfully, can be that bridge between technical complexity and human creativity.</strong></p>
+<p><a href="./index.html">← Back to Home</a> | <a href="data-visualization.qmd">View Data Visualization →</a> | <a href="hobbies.qmd">My Hobbies →</a></p>
+
+
 </section>
 </section>
 

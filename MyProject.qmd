@@ -1,0 +1,10 @@
+---
+title: "About"
+author: "Shermaine Chan"
+format: 
+  html:
+    toc: true
+---
+
+# My Final Year Project
+My final year project prior to entering SIT is a web application that visualizes the sentiment analysis of Twitter data related to COVID-19. The application allows users to explore the sentiments expressed in tweets about COVID-19 over time and across different regions.
